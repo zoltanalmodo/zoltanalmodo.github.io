@@ -1,0 +1,510 @@
+@charset "iso-8859-1";
+/*/ >>> CSS Document <<< /*/
+
+body {
+	font-family: helvetica, Fallback, sans-serif;
+	max-width: 100%;
+	background: #fff;
+	text-decoration: none;
+	overflow: scroll;
+	}
+
+/*/ >>> TYPE SETTINGS (START) body <<< /*/
+
+h1 {
+	font-family: monospace, Fallback, sans-serif;
+	background: #000;
+	text-align: left;
+	font-size: 35px;
+	letter-spacing: 3px;
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+	padding-top: 20px;
+	padding-right: 20%;
+	padding-bottom: 40px;
+	padding-left: 20%;
+	}
+h2 {
+	font-family: helvetica, Fallback, arial, sans-serif;
+	text-align: left;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	color: #7f7f7f;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-right: 20%;
+	padding-bottom: 35px;
+	padding-left: 20%;
+	}
+h3   {
+	font-family: helvetica, Fallback, sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #999999;
+	text-align: left;
+	padding-top: 15px;
+	padding-right: 20%;
+	padding-bottom: 25px;
+	padding-left: 20%;
+	line-height: 140%;	
+	font-weight: lighter;
+	vertical-align: baseline;
+	}
+/*/ >>> TYPE SETTINGS (END) body <<< /*/
+
+/*/ >>> BOXES (START) body <<< /*/
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	}
+.logo {
+	text-align: baseline;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	padding-right: 20px;
+	}
+
+/*/ >>> BOXES (END) body <<< /*/
+
+/*/ >>> FOOTER (START) body <<< /*/
+
+footer {
+	width: 100%;
+	height: 69px;
+	background: #000;
+	bottom: 0;
+	position: fixed;
+	}
+footer ul {
+	list-style-type: none;
+    width: 96%;
+	}
+footer ul li {
+	float: left;
+	border: none;
+	font-size: 14.5px;
+	letter-spacing: 6px;
+	color: #ccc5bf;
+	text-decoration: none;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 29px;
+	padding-left: 4%;
+	}
+
+/*/ >>> FOOTER (END) body <<< /*/
+
+
+/*/ ----------------------------- /*/
+/*/ --- MEDIA QUERYES (START) --- /*/
+/*/ ----------------------------- /*/
+
+/*/ -------------------------- /*/
+/*/ ***  max width 1200 px *** /*/
+/*/ -------------------------- /*/
+
+@media screen and (max-width: 1200px) {
+	body {
+		font-family: helvetica, Fallback, sans-serif;
+		max-width: 100%;
+		background: #fff;
+		text-decoration: none;
+		overflow: scroll;
+		}
+
+/*/ *** TYPE SETTINGS (START) 1200 px *** /*/
+
+	h1	{
+		font-family: Monospace, Fallback, sans-serif;
+		background: #000;
+		text-align: left;
+		font-size: 30px;
+		letter-spacing: 3px;
+		color: #fff;
+		font-weight: 400;
+		text-decoration: none;
+		padding-top: 20px;
+		padding-right: 20%;
+		padding-bottom: 40px;
+		padding-left: 20%;
+		}
+	h2	{
+		font-family: Helvetica, Fallback, arial, sans-serif;
+		text-align: left;
+		font-size: 36px;
+		font-weight: 400;
+		letter-spacing: 3px;
+		color: #7f7f7f;
+		text-decoration: none;
+		padding-top: 25px;
+		padding-right: 20%;
+		padding-bottom: 35px;
+		padding-left: 20%;
+		}
+	h3	{
+		font-family: Helvetica, Fallback, arial, sans-serif;
+		font-size: 14px;
+		letter-spacing: 1px;
+		color: #999999;
+		text-align: left;
+		padding-top: 15px;
+		padding-right: 20%;
+		padding-bottom: 25px;
+		padding-left: 20%;
+		line-height: 140%;	
+		font-weight: lighter;
+		vertical-align: baseline;
+		}
+/*/ *** TYPE SETTINGS (END) 1200 px *** /*/
+
+/*/ *** BOXES (START) 1200 px *** /*/
+
+.logo {
+	text-align: baseline;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	padding-right: 15%;
+	}
+	
+/*/ *** BOXES (END) 1200 px *** /*/
+
+/*/ *** FOOTER (START) 1200 px *** /*/
+
+	footer {
+		width: 100%;
+		height: 62;
+		background: #000;
+		position: fixed;
+		bottom: 0;
+		}
+	footer ul {
+  		list-style: none;
+ 		width: 100%;
+		text-align: center;
+		}
+	footer ul li {
+		padding-left: 4.5%;
+		float: left;
+		clear: right;
+		padding-top: 26px;
+  	 	padding-bottom: 22px;
+		border: none;
+		font-size: 13px;
+		letter-spacing: 5px;
+		color: #ccc5bf;
+		text-decoration: none;
+		text-align: center;
+		}
+
+/*/ *** FOOTER (END) 1200 px *** /*/
+
+/*/ ------------------------ /*/
+/*/ *** max width 1000 px *** /*/
+/*/ ------------------------ /*/
+
+@media screen and (max-width: 1000px) {
+	body {
+		font-family: helvetica, Fallback, sans-serif;
+		max-width: 100%;
+		background: #fff;
+		text-decoration: none;
+		overflow: scroll;
+		}
+
+/*/ *** TYPE SETTINGS (START) 1000 px *** /*/
+
+	h1	{
+		font-family: Monospace, Fallback, sans-serif;
+		background: #000;
+		text-align: left;
+		font-size: 24px;
+		letter-spacing: 2px;
+		color: #fff;
+		font-weight: 400;
+		text-decoration: none;
+		padding-top: 20px;
+		padding-right: 18%;
+		padding-bottom: 40px;
+		padding-left: 18%;
+		}
+	h2	{
+		font-family: Helvetica, Fallback, sans-serif;
+		text-align: left;
+		font-size: 24px;
+		font-weight: 400;
+		letter-spacing: 2px;
+		color: #7f7f7f;
+		text-decoration: none;
+		padding-top: 25px;
+		padding-right: 18%;
+		padding-bottom: 35px;
+		padding-left: 18%;
+		}
+	h3	{
+		font-family: Helvetica, Fallback, sans-serif;
+		font-size: 12px;
+		letter-spacing: 1px;
+		color: #999999;
+		text-align: left;
+		padding-top: 15px;
+		padding-right: 18%;
+		padding-bottom: 25px;
+		padding-left: 18%;
+		line-height: 140%;	
+		font-weight: lighter;
+		vertical-align: baseline;
+		}
+
+/*/ *** TYPE SETTINGS (END) 1000 px *** /*/
+
+/*/ *** BOXES (START) 1000 px *** /*/
+
+.logo {
+	text-align: baseline;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	padding-right: 10%;
+	}
+	
+/*/ *** BOXES (END) 1000 px *** /*/
+
+/*/ *** FOOTER (START) 1000 px *** /*/
+
+	footer {
+		width: 100%;
+		height: 62;
+		background: #000;
+		position: fixed;
+		bottom: 0;
+		}
+	footer ul {
+  		list-style: none;
+ 		width: 100%;
+		text-align: center;
+		}
+	footer ul li {
+		padding-left: 4.5%;
+		float: left;
+		clear: right;
+		padding-top: 26px;
+  	 	padding-bottom: 22px;
+		border: none;
+		font-size: 14px;
+		letter-spacing: 5px;
+		color: #ccc5bf;
+		text-decoration: none;
+		text-align: center;
+		}
+
+/*/ *** FOOTER (END) 1000 px *** /*/
+
+/*/ ------------------------ /*/
+/*/ *** max width 800 px *** /*/
+/*/ ------------------------ /*/
+
+@media screen and (max-width: 800px) {
+	body {
+		font-family: helvetica, Fallback, sans-serif;
+		max-width: 100%;
+		background: #fff;
+		text-decoration: none;
+		overflow: scroll;
+		}
+
+/*/ *** TYPE SETTINGS (START) 800 px *** /*/
+
+	h1	{
+		font-family: Monospace, Fallback, sans-serif;
+		background: #000;
+		text-align: left;
+		font-size: 24px;
+		letter-spacing: 2px;
+		color: #fff;
+		font-weight: 400;
+		text-decoration: none;
+		padding-top: 20px;
+		padding-right: 18%;
+		padding-bottom: 40px;
+		padding-left: 18%;
+		}
+	h2	{
+		font-family: Helvetica, Fallback, sans-serif;
+		text-align: left;
+		font-size: 24px;
+		font-weight: 400;
+		letter-spacing: 2px;
+		color: #7f7f7f;
+		text-decoration: none;
+		padding-top: 25px;
+		padding-right: 18%;
+		padding-bottom: 35px;
+		padding-left: 18%;
+		}
+	h3	{
+		font-family: Helvetica, Fallback, sans-serif;
+		font-size: 12px;
+		letter-spacing: 1px;
+		color: #999999;
+		text-align: left;
+		padding-top: 15px;
+		padding-right: 18%;
+		padding-bottom: 25px;
+		padding-left: 18%;
+		line-height: 140%;	
+		font-weight: lighter;
+		vertical-align: baseline;
+		}
+
+/*/ *** TYPE SETTINGS (END) 800 px *** /*/
+
+/*/ *** BOXES (START) 800 px *** /*/
+
+.logo {
+	text-align: baseline;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	padding-right: 10%;
+	}
+	
+/*/ *** BOXES (END) 800 px *** /*/
+
+/*/ *** FOOTER (START) 800 px *** /*/
+
+	footer {
+		width: 100%;
+		height: 62;
+		background: #000;
+		position: fixed;
+		bottom: 0;
+		}
+	footer ul {
+  		list-style: none;
+ 		width: 100%;
+		text-align: center;
+		}
+	footer ul li {
+		padding-left: 4.5%;
+		float: left;
+		clear: right;
+		padding-top: 26px;
+  	 	padding-bottom: 22px;
+		border: none;
+		font-size: 14px;
+		letter-spacing: 5px;
+		color: #ccc5bf;
+		text-decoration: none;
+		text-align: center;
+		}
+
+/*/ *** FOOTER (END) 800 px *** /*/
+
+/*/ ------------------------ /*/
+/*/ *** max width 600 px *** /*/
+/*/ ------------------------ /*/
+
+@media screen and (max-width: 600px) {
+	body {
+		font-family: helvetica, Fallback, sans-serif;
+		max-width: 100%;
+		background: #fff;
+		text-decoration: none;
+		overflow: scroll;
+		}
+
+/*/ *** TYPE SETTINGS (START) 600 px *** /*/
+
+	h1	{
+		font-family: Monospace, Fallback, sans-serif;
+		background: #000;
+		text-align: left;
+		font-size: 24px;
+		letter-spacing: 2px;
+		color: #fff;
+		font-weight: 400;
+		text-decoration: none;
+		padding-top: 20px;
+		padding-right: 15%;
+		padding-bottom: 40px;
+		padding-left: 15%;
+		}
+	h2	{
+		font-family: Helvetica, Fallback, sans-serif;
+		text-align: left;
+		font-size: 24px;
+		font-weight: 400;
+		letter-spacing: 2px;
+		color: #7f7f7f;
+		text-decoration: none;
+		padding-top: 25px;
+		padding-right: 15%;
+		padding-bottom: 35px;
+		padding-left: 15%;
+		}
+	h3	{
+		font-family: Helvetica, Fallback, sans-serif;
+		font-size: 12px;
+		letter-spacing: 1px;
+		color: #999999;
+		text-align: left;
+		padding-top: 15px;
+		padding-right: 15%;
+		padding-bottom: 25px;
+		padding-left: 15%;
+		line-height: 140%;	
+		font-weight: lighter;
+		vertical-align: baseline;
+		}
+
+/*/ *** TYPE SETTINGS (END) 600 px *** /*/
+
+
+/*/ *** BOXES (START) 600 px *** /*/
+
+.logo {
+	text-align: baseline;
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+	padding-right: 5%;
+	}
+	
+/*/ *** BOXES (END) 600 px *** /*/
+
+/*/ *** FOOTER (START) 600 px *** /*/
+
+	footer {
+		width: 100%;
+		height: 62;
+		background: #000;
+		position: fixed;
+		bottom: 0;
+		}
+	footer ul {
+  		list-style: none;
+ 		width: 100%;
+		text-align: center;
+		}
+	footer ul li {
+		padding-left: 4.5%;
+		float: left;
+		clear: right;
+		padding-top: 26px;
+  	 	padding-bottom: 22px;
+		border: none;
+		font-size: 12px;
+		letter-spacing: 5px;
+		color: #ccc5bf;
+		text-decoration: none;
+		text-align: center;
+		}
+/*/ *** FOOTER (END) 600 px *** /*/
