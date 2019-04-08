@@ -7,6 +7,8 @@ body {
 	background: #fff;
 	text-decoration: none;
 	overflow: scroll;
+	text-align: left;
+	
 }
 
 /*/ >>> TYPE SETTINGS (START) body <<< /*/
@@ -139,7 +141,7 @@ footer ul li {
 		font-family: Monospace, Fallback, sans-serif;
 		background: #000;
 		text-align: left;
-		font-size: 30px;
+		font-size: 31px;
 		letter-spacing: 3px;
 		color: #fff;
 		font-weight: 400;
@@ -238,6 +240,7 @@ footer ul li {
 		background: #fff;
 		text-decoration: none;
 		overflow: scroll;
+		text-align: center;
 	}
 
 	/*/ *** TYPE SETTINGS (START) 1000 px *** /*/
@@ -353,7 +356,7 @@ footer ul li {
 		font-family: Monospace, Fallback, sans-serif;
 		background: #000;
 		text-align: left;
-		font-size: 24px;
+		font-size: 22px;
 		letter-spacing: 2px;
 		color: #fff;
 		font-weight: 400;
@@ -466,7 +469,7 @@ footer ul li {
 		font-family: Monospace, Fallback, sans-serif;
 		background: #000;
 		text-align: left;
-		font-size: 24px;
+		font-size: 20px;
 		letter-spacing: 2px;
 		color: #fff;
 		font-weight: 400;
