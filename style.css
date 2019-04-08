@@ -6,7 +6,6 @@ body {
 	max-width: 100%;
 	background: #fff;
 	text-decoration: none;
-	overflow: scroll;
 	text-align: left;
 	
 }
@@ -110,7 +109,7 @@ footer ul li {
 	text-decoration: none;
 	padding-top: 30px;
 	padding-right: 0px;
-	padding-bottom: 29px;
+	padding-bottom: 0px;
 	padding-left: 4%;
 }
 
