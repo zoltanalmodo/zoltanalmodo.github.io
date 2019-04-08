@@ -60,6 +60,7 @@ a {
 	font-size: 18px;
 	font-weight: 800;
 	color: #242424;
+	padding-right: 10%;
 }
 
 /*/ >>> TYPE SETTINGS (END) body <<< /*/
@@ -78,7 +79,7 @@ img {
 	max-width: 100%;
 	height: auto;
 	width: auto;
-	padding-right: 20px;
+	padding-right: 2%;
 }
 
 /*/ >>> BOXES (END) body <<< /*/
@@ -95,7 +96,7 @@ footer {
 
 footer ul {
 	list-style-type: none;
-  width: 96%;
+	width: 96%;
 }
 
 footer ul li {
@@ -187,7 +188,7 @@ footer ul li {
 		max-width: 100%;
 		height: auto;
 		width: auto;
-		padding-right: 15%;
+		padding-right: 2%;
 		}
 	
 	/*/ *** BOXES (END) 1200 px *** /*/
@@ -203,7 +204,7 @@ footer ul li {
 	}
 
 	footer ul {
-  	list-style: none;
+  		list-style: none;
  		width: 100%;
 		text-align: center;
 	}
@@ -213,7 +214,7 @@ footer ul li {
 		float: left;
 		clear: right;
 		padding-top: 26px;
-  	padding-bottom: 22px;
+  		padding-bottom: 22px;
 		border: none;
 		font-size: 13px;
 		letter-spacing: 5px;
@@ -294,7 +295,7 @@ footer ul li {
 		max-width: 100%;
 		height: auto;
 		width: auto;
-		padding-right: 10%;
+		padding-right: 2%;
 	}
 	
 	/*/ *** BOXES (END) 1000 px *** /*/
@@ -320,7 +321,7 @@ footer ul li {
 		float: left;
 		clear: right;
 		padding-top: 26px;
-  	padding-bottom: 22px;
+  		padding-bottom: 22px;
 		border: none;
 		font-size: 14px;
 		letter-spacing: 5px;
@@ -391,6 +392,11 @@ footer ul li {
 		font-weight: lighter;
 		vertical-align: baseline;
 	}
+	
+	a {
+		font-size: 11px;
+		padding-right: 5%;
+	}
 
 	/*/ *** TYPE SETTINGS (END) 800 px *** /*/
 
@@ -401,7 +407,7 @@ footer ul li {
 		max-width: 100%;
 		height: auto;
 		width: auto;
-		padding-right: 10%;
+		padding-right: 2%;
 	}
 	
 	/*/ *** BOXES (END) 800 px *** /*/
@@ -427,7 +433,7 @@ footer ul li {
 		float: left;
 		clear: right;
 		padding-top: 26px;
-  	padding-bottom: 22px;
+  		padding-bottom: 22px;
 		border: none;
 		font-size: 14px;
 		letter-spacing: 5px;
@@ -500,6 +506,11 @@ footer ul li {
 		vertical-align: baseline;
 	}
 
+	a {
+		font-size: 11px;
+		padding-right: 5%;
+	}
+
 	/*/ *** TYPE SETTINGS (END) 600 px *** /*/
 
 	/*/ *** BOXES (START) 600 px *** /*/
@@ -510,7 +521,7 @@ footer ul li {
 		max-height: 100%;
 		height: auto;
 		width: auto;
-		padding-right: 5%;
+		padding-right: 2%;
 	}
 	
 	/*/ *** BOXES (END) 600 px *** /*/
@@ -536,7 +547,7 @@ footer ul li {
 		float: left;
 		clear: right;
 		padding-top: 26px;
-  	padding-bottom: 22px;
+  		padding-bottom: 22px;
 		border: none;
 		font-size: 12px;
 		letter-spacing: 5px;
