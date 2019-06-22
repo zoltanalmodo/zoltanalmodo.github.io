@@ -45,7 +45,7 @@ h3   {
 	font-family: helvetica, Fallback, sans-serif;
 	font-size: 18px;
 	letter-spacing: 1px;
-	color: #999999;
+	color: hsl(0, 100%, 0%);
 	text-align: left;
 	padding-top: 15px;
 	padding-right: 20%;
