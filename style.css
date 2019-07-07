@@ -415,11 +415,11 @@ footer ul li {
 	/*/ *** BOXES (START) 800 px *** /*/
 
 	.portrait_horizontal {
-		width: 38%;
+		width: 40%;
 	}
 
 	.logo img {
-		width: 30%;
+		width: 40%;
 		height: auto;
 	}
 	
@@ -526,7 +526,7 @@ footer ul li {
 	/*/ *** BOXES (START) 600 px *** /*/
 
 	.portrait_horizontal {
-		width: 40%;
+		width: 50%;
 	}
 
 	.logo img {
