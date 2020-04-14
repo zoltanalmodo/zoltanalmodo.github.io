@@ -74,6 +74,8 @@ img {
 	height: auto;
 	width: auto;
 	padding-top: 5%;
+	border-radius: 50%;
+	border-color: hsl(199%, 100%, 99%);
 }
 
 .portrait_horizontal {
