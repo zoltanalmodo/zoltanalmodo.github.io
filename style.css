@@ -21,9 +21,9 @@ h1 {
 	color: #fff;
 	font-weight: 400;
 	text-decoration: none;
-	padding-top: 20px;
+	/* padding-top: 20px; */
 	padding-right: 15%;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	padding-left: 15%;
 }
 
@@ -41,7 +41,7 @@ h2 {
 	padding-left: 15%;
 }
 
-h3   {
+h3 {
 	font-family: helvetica, Fallback, sans-serif;
 	font-size: 18px;
 	letter-spacing: 1px;
@@ -49,7 +49,7 @@ h3   {
 	text-align: left;
 	padding-top: 15px;
 	padding-right: 16%;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 	padding-left: 16%;
 	line-height: 140%;	
 	font-weight: lighter;
@@ -60,7 +60,7 @@ a {
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: 800;
-	color: #242424;
+	color: hsl(199, 100%, 47%);
 	padding-right: 5%;
 }
 
@@ -73,15 +73,28 @@ img {
 	max-width: 100%;
 	height: auto;
 	width: auto;
+}
+
+.img_padded {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
 	padding-top: 5%;
-	border-radius: 50%;
-	border-color: hsl(199%, 100%, 99%);
+}
+
+.projects {
+	background-color: black;
+	margin-top: 5%;
+	margin-bottom: 4%;
 }
 
 .portrait_horizontal {
 	height: auto;
 	width: 32%;
 	text-align: left;
+	padding-top: 15px;
+
 }
 
 .logo img {
